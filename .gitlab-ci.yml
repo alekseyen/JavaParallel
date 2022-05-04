@@ -14,7 +14,7 @@ build:
   tags:
     - docker-atp
   script:
-    - mvn clean package
+    - cd hw4task2 && mvn clean package
   artifacts:
     paths:
       - target/alekseyen-1.0-SNAPSHOT.jar
@@ -27,5 +27,5 @@ test:
   tags:
     - docker-atp
   script:
-    - mvn verify
+    - cd hw4task2 && mvn verify
     - echo "TESTS PASSED"
