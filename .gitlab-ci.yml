@@ -17,7 +17,7 @@ build:
     - mvn clean package
   artifacts:
     paths:
-      - target/token-ring-1.0-SNAPSHOT.jar
+      - target/alekseyen-1.0-SNAPSHOT.jar
     expire_in: 1 hour
   after_script:
     - ECHO "BUILD PASSED"
