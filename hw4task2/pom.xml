@@ -73,30 +73,30 @@
 
         </executions>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>${checkstyle.maven.plugin.version}</version>
-        <executions>
-          <execution>
-            <id>verify-style</id>
-            <phase>process-classes</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <configLocation>checkstyle.xml</configLocation>
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>com.puppycrawl.tools</groupId>
-            <artifactId>checkstyle</artifactId>
-            <version>${checkstyle.version}</version>
-          </dependency>
-        </dependencies>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-checkstyle-plugin</artifactId>-->
+<!--        <version>${checkstyle.maven.plugin.version}</version>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <id>verify-style</id>-->
+<!--            <phase>process-classes</phase>-->
+<!--            <goals>-->
+<!--              <goal>check</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--        <configuration>-->
+<!--          <configLocation>checkstyle.xml</configLocation>-->
+<!--        </configuration>-->
+<!--        <dependencies>-->
+<!--          <dependency>-->
+<!--            <groupId>com.puppycrawl.tools</groupId>-->
+<!--            <artifactId>checkstyle</artifactId>-->
+<!--            <version>${checkstyle.version}</version>-->
+<!--          </dependency>-->
+<!--        </dependencies>-->
+<!--      </plugin>-->
     </plugins>
   </build>
 </project>
