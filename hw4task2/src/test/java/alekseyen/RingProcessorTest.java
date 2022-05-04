@@ -26,7 +26,7 @@ public class RingProcessorTest {
         Assertions.assertThat(processor.getDataPackages()).hasSize(3);
 
         Assertions.assertThat(processor.getDataPackages().get(0).getEndTime()).isEqualTo(0L);
-        Assertions.assertThat(processor.getNodeList().get(1).getBufferStack().size()).isEqualTo(0);
+        Assertions.assertThat(processor.getNodeList().get(1).getNodeId()).isEqualTo(1);
         Assertions.assertThat(processor.getNodeList().get(1).getAllData().size()).isEqualTo(0);
     }
 }
