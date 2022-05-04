@@ -1,0 +1,31 @@
+image: ubuntu
+
+stages:
+  - build
+  - test
+
+before_script:
+  - apt update
+  - apt install maven -y
+
+
+build:
+  stage: build
+  tags:
+    - docker-atp
+  script:
+    - mvn clean package
+  artifacts:
+    paths:
+      - target/token-ring-1.0-SNAPSHOT.jar
+    expire_in: 1 hour
+  after_script:
+    - ECHO "BUILD PASSED"
+
+test:
+  stage: test
+  tags:
+    - docker-atp
+  script:
+    - mvn verify
+    - echo "TESTS PASSED"
