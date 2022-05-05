@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-05-04T14:29:40.266035Z</date>
+  <millis>1651674580266</millis>
+  <nanos>35000</nanos>
+  <sequence>0</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Number of nodes: 6</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.291943Z</date>
+  <millis>1651674580291</millis>
+  <nanos>943000</nanos>
+  <sequence>1</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Coordinator node is number 4</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.298705Z</date>
+  <millis>1651674580298</millis>
+  <nanos>705000</nanos>
+  <sequence>2</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 0 contains 1 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.299245Z</date>
+  <millis>1651674580299</millis>
+  <nanos>245000</nanos>
+  <sequence>3</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 1 contains 0 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.299737Z</date>
+  <millis>1651674580299</millis>
+  <nanos>737000</nanos>
+  <sequence>4</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 2 contains 0 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.300196Z</date>
+  <millis>1651674580300</millis>
+  <nanos>196000</nanos>
+  <sequence>5</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 3 contains 1 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.300654Z</date>
+  <millis>1651674580300</millis>
+  <nanos>654000</nanos>
+  <sequence>6</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 4 contains 0 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.301115Z</date>
+  <millis>1651674580301</millis>
+  <nanos>115000</nanos>
+  <sequence>7</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 5 contains 1 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.312803Z</date>
+  <millis>1651674580312</millis>
+  <nanos>803000</nanos>
+  <sequence>9</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>22</thread>
+  <message>Data received on node 5 for time: 39 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.312800Z</date>
+  <millis>1651674580312</millis>
+  <nanos>800000</nanos>
+  <sequence>8</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>19</thread>
+  <message>Data received on node 2 for time: 40 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.317470Z</date>
+  <millis>1651674580317</millis>
+  <nanos>470000</nanos>
+  <sequence>10</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>18</thread>
+  <message>Data_2 sent from1 to 2</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.317475Z</date>
+  <millis>1651674580317</millis>
+  <nanos>475000</nanos>
+  <sequence>12</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>20</thread>
+  <message>Data_0 sent from3 to 5</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.317470Z</date>
+  <millis>1651674580317</millis>
+  <nanos>470000</nanos>
+  <sequence>11</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>17</thread>
+  <message>Data_2 sent from0 to 1</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.318255Z</date>
+  <millis>1651674580318</millis>
+  <nanos>255000</nanos>
+  <sequence>13</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>writeDate</method>
+  <thread>19</thread>
+  <message>Data_2 written to node 4</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.318256Z</date>
+  <millis>1651674580318</millis>
+  <nanos>256000</nanos>
+  <sequence>14</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>writeDate</method>
+  <thread>22</thread>
+  <message>Data_1 written to node 4</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.320400Z</date>
+  <millis>1651674580320</millis>
+  <nanos>400000</nanos>
+  <sequence>15</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>22</thread>
+  <message>Data_0 sent from5 to 0</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.321682Z</date>
+  <millis>1651674580321</millis>
+  <nanos>682000</nanos>
+  <sequence>16</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>processData</method>
+  <thread>17</thread>
+  <message>Data received on node 0 for time: 56 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:40.322137Z</date>
+  <millis>1651674580322</millis>
+  <nanos>137000</nanos>
+  <sequence>17</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.Node</class>
+  <method>writeDate</method>
+  <thread>17</thread>
+  <message>Data_0 written to node 4</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.310701Z</date>
+  <millis>1651674585310</millis>
+  <nanos>701000</nanos>
+  <sequence>18</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>countAverageNetworkDelay</method>
+  <thread>1</thread>
+  <message>Average network delay is 166,059 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.312380Z</date>
+  <millis>1651674585312</millis>
+  <nanos>380000</nanos>
+  <sequence>19</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>countAverageBufferDelay</method>
+  <thread>1</thread>
+  <message>Average buffer delay is 1499961448,957 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.312969Z</date>
+  <millis>1651674585312</millis>
+  <nanos>969000</nanos>
+  <sequence>20</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>countAverageNetworkDelay</method>
+  <thread>1</thread>
+  <message>Average network delay is 166,059 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.379282Z</date>
+  <millis>1651674585379</millis>
+  <nanos>282000</nanos>
+  <sequence>21</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>countAverageBufferDelay</method>
+  <thread>1</thread>
+  <message>Average buffer delay is 1499961448,957 ms</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.392001Z</date>
+  <millis>1651674585392</millis>
+  <nanos>1000</nanos>
+  <sequence>22</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Number of nodes: 6</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.392523Z</date>
+  <millis>1651674585392</millis>
+  <nanos>523000</nanos>
+  <sequence>23</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Coordinator node is number 5</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.392904Z</date>
+  <millis>1651674585392</millis>
+  <nanos>904000</nanos>
+  <sequence>24</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 0 contains 1 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.393308Z</date>
+  <millis>1651674585393</millis>
+  <nanos>308000</nanos>
+  <sequence>25</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 1 contains 1 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.393661Z</date>
+  <millis>1651674585393</millis>
+  <nanos>661000</nanos>
+  <sequence>26</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 2 contains 1 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.394028Z</date>
+  <millis>1651674585394</millis>
+  <nanos>28000</nanos>
+  <sequence>27</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 3 contains 0 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.394382Z</date>
+  <millis>1651674585394</millis>
+  <nanos>382000</nanos>
+  <sequence>28</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 4 contains 0 data packages</message>
+</record>
+<record>
+  <date>2022-05-04T14:29:45.394770Z</date>
+  <millis>1651674585394</millis>
+  <nanos>770000</nanos>
+  <sequence>29</sequence>
+  <logger>ringLogger</logger>
+  <level>INFO</level>
+  <class>alekseyen.RingProcessor</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Node 5 contains 0 data packages</message>
+</record>
+</log>
